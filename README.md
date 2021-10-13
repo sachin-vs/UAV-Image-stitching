@@ -1,4 +1,4 @@
-# UAV-Image-stitching
+# ORB feature based image stitching for UAV images
 Image stitching is the process of stitching multiple images with overlapping areas to produce a panoramic or high resolution image. Unmanned Aerial Vehicle (UAV) can be widely used to study the terrain. Each time a UAV sweeps through an area it takes images on different sections of the regions. An image stitching software is used to stitch these images into a single image based on overlapping regions. 
 This is a python script for doing the same. Here I used ORB features to identify each feature in an image and using that the images are stitched together. ORB is a pre-built function available on openCV.
 The data for the program are cropped regions of a UAV image, stored in a folder. The path of the folder is given as input. Program iterate through the folder and joins image based on common feature.
