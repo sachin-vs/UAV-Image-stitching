@@ -6,3 +6,8 @@ The data for the program are cropped regions of a UAV image, stored in a folder.
 ![data](https://user-images.githubusercontent.com/85213549/137188913-721a9724-74d3-4cab-81c5-26c8e2401393.png)
 # Output
 ![mossaic](https://user-images.githubusercontent.com/85213549/137188955-5c698ea6-98af-4998-b8d3-e577aa67a96e.png)
+# How to run the code
+1. Clone the repository in your machine
+2. Install requirements.txt using pip
+3. Add your data on same folder
+4. Run UAV-image-stitching.py
